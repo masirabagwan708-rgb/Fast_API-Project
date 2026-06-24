@@ -9,4 +9,3 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 app.include_router(note)
 
-# here Im adding some text for git status
